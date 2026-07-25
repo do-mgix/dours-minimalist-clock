@@ -82,12 +82,17 @@ represents years ( work in progress ! )
 
 Format: [ 2 M | 2 C | 2 D ] (Pairs of modules per digit/scale)
 
-States per pair:
-  [ - - ] : 0 / Inactive
-  [ - X ] : < 50% of the block
-  [ X - ] : > 50% of the block
-  [ X X ] : Complete / Max value
+### States per pair:
 
-Example (Year 2026):
-  [ - X ] [ - - ] [ - X ]
-  2000s     00s     26 yrs
+  [ - - ] : 0 / Inactive
+  
+  [ - X ] : < 50% of the block
+  
+  [ X - ] : > 50% of the block
+  
+  [ X X ] : Complete / Max value
+  
+### Example (Year 2026):
+  [ - X ] [ - - ] [ - X ] : 2000s     00s     26 yrs
+  
+  
