@@ -1,0 +1,52 @@
+
+:root{
+
+ --cols: 12;
+
+ --rows: 4;
+
+}
+
+
+body {
+
+ background-color: black;
+
+ color: white;
+
+
+}
+
+
+.clock-container{
+ display: grid;
+ gap: 8px;
+ width: 40vh;
+ height: 40vh;
+ grid-template-columns: repeat(var(--cols), 1fr);
+ grid-template-rows: repeat(var(--rows), 1fr);
+
+}
+
+
+.module{
+
+ display: flex;
+
+ align-items: center;
+
+ justify-content: center;
+
+}
+
+
+.module[data-status="0"]{
+ background-color: gray;
+
+}
+
+
+.module[data-status="1"]{
+ background-color: yellow;
+
+} 
